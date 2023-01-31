@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/style.css"/>
+    <style>
+      /* Sticky Nav */
+      .navbar {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 999;
+      }
+
+      /* Hamburger Nav */
+      .navbar .navbar-toggler {
+        display: none;
+      }
+
+      /* Show Navbar on Desktop */
+      @media (min-width: 992px) {
+        .navbar-collapse {
+          display: flex !important;
+        }
+        .navbar-nav {
+          display: flex !important;
+        }
+      }
+
+      /* Get in Touch Nav Color */
+      .navbar .nav-item .nav-link.get-in-touch {
+        background-color: #3792e7;
+        color: #fff;
+      }
+
+      /* Site Background */
+      body {
+        background-color: #0f0c21;
+        color: #00fe85;
+      }
+
+      /* Heading Colors */
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        color: #3792e7;
+      }
+
+      /* Footer Logo */
+      .footer .logo {
+        text-align: right;
+      }
+
+      /* Smooth Scroll */
+      .navbar .nav-item .nav-link {
+        display: block;
+        padding: 10px 15px;
+        color: #fff;
+      }
+
+      .navbar .nav-item .nav-link:hover {
+        background-color: #3792e7;
+      }
+
+      .navbar .nav-item .nav-link.home {
+        cursor: pointer;
+      }
+
+      .navbar .nav-item .nav-link.services {
+        cursor: pointer;
+      }
+    </style>
+    <title>Coding Startup Landing Page</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+      <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand" href="#">
+          <img src="/img/logo.svg" height="150px" width="150px" alt="code-station" />
+        </a>
+        <!-- Navbar Toggler -->
+        <button
+          class="navbar-toggler"
+          type="button
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Navbar Menu -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link home" href="#hero-section">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link services" href="#our-services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link get-in-touch" href="#">Get in Touch</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero-section" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-sm-12">
+          <!-- SVG Logo -->
+          <img src="hero-logo.svg" alt="Coding Startup Logo" />
+        </div>
+        <div class="col-lg-6 col-sm-12">
+          <!-- Text -->
+          <h1>Welcome to Our Coding Startup</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+            malesuada euismod enim, et congue nulla congue eu.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Our Services Section -->
+  <section id="our-services" class="py-5">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="row">
+        <div class="col-lg-6 col-sm-12">
+          <!-- Service 1 -->
+          <img src="service-1.svg" alt="Service 1" />
+        </div>
+        <div class="col-lg-6 col-sm-12">
+          <!-- Service 1 Text -->
+          <h3>Service 1</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+            malesuada euismod enim, et congue nulla congue eu.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-sm-12">
+          <!-- Service 2 -->
+          <img src="service-2.svg" alt="Service 2" />
+        </div>
+        <div class="col-lg-6 col-sm-12">
+          <!-- Service 2 Text -->
+          <h3>Service 2</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+            malesuada e
+            </p>
+        </div>
+          
+            <div class="col-lg-6 col-sm-12">
+          <!-- Service 3 -->
+          <img src="service-3.svg" alt="Service 3" />
+        </div>
+        <div class="col-lg-6 col-sm-12">
+          <!-- Service 3 Text -->
+          <h3>Service 3</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+            malesuada euismod enim, et congue nulla congue eu.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-sm-12">
+          <!-- Service 4 -->
+          <img src="/img/s-4.jpg" alt="Service 4" />
+        </div>
+        <div class="col-lg-6 col-sm-12">
+          <!-- Service 4 Text -->
+          <h3>Service 4</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+            malesuada euismod enim, et congue nulla congue eu.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <!-- Footer Logo -->
+          <img src="/img/logo.svg" height="125" width="125" alt="Footer Logo" />
+        </div>
+        <div class="col-lg-6">
+          <!-- Location Info -->
+          <p>
+            123 Main Street <br />
+            Anytown, USA 12345
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
+
+<!-- CSS -->
+<!-- <style>
+  body {
+    background-color: #0F0C21;
+    color: #00FE85;
+  }
+
+  h1,
+  h2,
+  h3 {
+    color: #3792E7;
+  }
+
+  .navbar {
+    background-color: #0F0C21;
+  }
+
+  .nav-link.get-in-touch {
+    background-color: #3792E7;
+  }
+
+  .home {
+    cursor: pointer;
+  }
+
+  .services {
+    cursor: pointer;
+  }
+</style> -->
+
+<!-- JavaScript -->
+<script>
+  // Smooth Scrolling
+  $(".home").click(function() {
+    $("html, body").animate({ scrollTop: $("#hero-section").offset().top }, 1000);
+  });
+
+  $(".services").click(function() {
+    $("html, body").animate({ scrollTop: $("#our-services").offset().top }, 1000);
+  });
+</script>
+
