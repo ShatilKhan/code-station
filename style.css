@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+html{
+  scroll-behavior: smooth;
+}
+
+  body {
+    background-color: #0F0C21;
+    color: #00FE85;
+    font-family: 'VT323', monospace;
+  }
+
+  h1,
+  h2,
+  h3 {
+    color: #3792E7;
+    font-family: 'VT323', monospace;
+  }
+
+  .navbar {
+    background-color: #0F0C21;
+  }
+
+  .nav-link.get-in-touch {
+    background-color: #3792E7;
+  }
+
+  .navbar 
+
+  .home {
+    cursor: pointer;
+  }
+
+  .services {
+    cursor: pointer;
+  }
+
+  
+
+  /* Pixilated Cursor */
+  body {
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='10'><rect x='0' y='0' width='10' height='10' fill='%2300FE85'/></svg>") 4 4, auto;
+  }
+
+
+  .floating { 
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+ 
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }   
+}
+
+.g-form{
+  margin: auto;
+}
