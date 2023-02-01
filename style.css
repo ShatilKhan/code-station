@@ -19,13 +19,14 @@ html{
 
   .navbar {
     background-color: #0F0C21;
+    font-size: larger;
   }
 
   .nav-link.get-in-touch {
     background-color: #3792E7;
   }
 
-  .navbar 
+  
 
   .home {
     cursor: pointer;
@@ -59,5 +60,7 @@ html{
 }
 
 .g-form{
-  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
